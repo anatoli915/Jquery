@@ -1,0 +1,7 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+<p>Date: <input type="text" id="datepicker" /></p>
+<%= form_for :user, :url => {:action => "create"}, :html => { :multipart => true } do |f|%>
+	<%= f.file_field :photo %>
+<% end %>
+<%= image_tag @user.photo.url (:small)%>

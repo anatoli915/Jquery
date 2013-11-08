@@ -1,0 +1,6 @@
+
+<%= form_for :user, :url => url_for(:controller => 'upload', :action => 'uploadFile') do |f| %>
+  Upload: <%= f.file_field :datafile %><br />
+  
+  <%= f.submit %>
+<% end %>

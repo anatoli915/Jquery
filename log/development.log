@@ -1,0 +1,973 @@
+ 
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-04 20:09:54 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d80e3628 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-1huiyxo>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d80e3628 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-1huiyxo>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+++++++++++++++++++++++++++++++++++++++++++++++++#<ActionDispatch::Http::UploadedFile:0x007fa9d80e3628>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `read' for nil:NilClass):
+  app/models/data_file.rb:11:in `block in save'
+  app/models/data_file.rb:11:in `open'
+  app/models/data_file.rb:11:in `save'
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.8ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-04 20:11:32 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d8a42ea8 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-1lo5tym>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d8a42ea8 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-1lo5tym>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+++++++++++++++++++++++++++++++++++++++++++++++++back1.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `read' for nil:NilClass):
+  app/models/data_file.rb:11:in `block in save'
+  app/models/data_file.rb:11:in `open'
+  app/models/data_file.rb:11:in `save'
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-04 20:13:02 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d8983ad0 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-17u9ocw>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d8983ad0 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-17u9ocw>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `orginal_filename' for #<ActionDispatch::Http::UploadedFile:0x007fa9d8983ad0>):
+  app/models/data_file.rb:6:in `save'
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-04 20:13:37 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d8977488 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-1jak2c5>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d8977488 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-1jak2c5>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `read' for nil:NilClass):
+  app/models/data_file.rb:11:in `block in save'
+  app/models/data_file.rb:11:in `open'
+  app/models/data_file.rb:11:in `save'
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-04 20:14:07 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d8976fb0 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-17095se>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"cAyXi7/P8vE/UyXc76iwzg0bCcBuKizzFTvrgyCPEjw=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fa9d8976fb0 @original_filename="back1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back1.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20131104-3797-17095se>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 03:12:44 +0200
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT "galleries".* FROM "galleries" [0m
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures" WHERE "pictures"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pictures".* FROM "pictures" WHERE "pictures"."id" = 2 LIMIT 1[0m
+  Rendered galleries/index.html.erb within layouts/application (894.4ms)
+Completed 200 OK in 1526ms (Views: 1404.7ms | ActiveRecord: 39.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/jquery.Jcrop.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.Jcrop.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.fileupload-ui.css - 200 OK (2ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /pictures.css - 200 OK (1ms)
+
+
+Started GET "/assets/slimbox2.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /slimbox2.css - 200 OK (3ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /uploads.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /upload.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.ui.widget.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.Jcrop.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.Jcrop.js - 200 OK (2ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /load-image.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /canvas-to-blob.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.iframe-transport.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.fileupload.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ip.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.fileupload-ip.js - 200 OK (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /main.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /jquery.fileupload-ui.js - 200 OK (2ms)
+
+
+Started GET "/assets/locale.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /locale.js - 200 OK (44ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /pictures.js - 200 OK (1ms)
+
+
+Started GET "/assets/slimbox2.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /slimbox2.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /twitter/bootstrap.js - 200 OK (22ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /bootstrap-image-gallery.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /application.js - 200 OK (33ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-11-07 03:12:47 +0200
+Served asset /fontawesome-webfont.woff - 200 OK (6ms)
+
+
+Started GET "/upload/index" for 127.0.0.1 at 2013-11-07 03:12:56 +0200
+Processing by UploadController#index as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/1.9.1/benchmark.rb:295)
+  Rendered upload/uploadfile.html.erb within layouts/application (336.4ms)
+testeststestse
+Completed 200 OK in 394ms (Views: 393.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.Jcrop.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.Jcrop.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slimbox2.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /slimbox2.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /uploads.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.Jcrop.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.Jcrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ip.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /jquery.fileupload-ip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slimbox2.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /slimbox2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locale.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /locale.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 03:12:57 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-07 03:13:05 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uE2513eQuCRlm+iSJa6CGGfbcsB72mld/BLF0mG9M4s=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fc3102e07e0 @original_filename="back_green.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_green.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131107-462-i6dzc5>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"uE2513eQuCRlm+iSJa6CGGfbcsB72mld/BLF0mG9M4s=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fc3102e07e0 @original_filename="back_green.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_green.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131107-462-i6dzc5>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 68ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/uploadFile" for 127.0.0.1 at 2013-11-07 03:23:39 +0200
+Processing by UploadController#uploadFile as HTML
+==========================================={"controller"=>"upload", "action"=>"uploadFile"}
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/models/data_file.rb:6:in `save'
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/upload/" for 127.0.0.1 at 2013-11-07 03:23:59 +0200
+
+ActionController::RoutingError (No route matches [GET] "/upload"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/upload/index" for 127.0.0.1 at 2013-11-07 03:24:58 +0200
+Processing by UploadController#index as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/1.9.1/benchmark.rb:295)
+  Rendered upload/uploadfile.html.erb within layouts/application (123.4ms)
+testeststestse
+Completed 200 OK in 638ms (Views: 637.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 03:24:59 +0200
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.Jcrop.css?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.Jcrop.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.fileupload-ui.css - 200 OK (5ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /pictures.css - 200 OK (6ms)
+
+
+Started GET "/assets/slimbox2.css?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /slimbox2.css - 200 OK (1ms)
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /upload.css - 200 OK (1ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /uploads.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.ui.widget.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.Jcrop.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.Jcrop.js - 200 OK (1ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /load-image.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.iframe-transport.js - 200 OK (1ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /canvas-to-blob.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.fileupload.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ip.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.fileupload-ip.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /jquery.fileupload-ui.js - 200 OK (1ms)
+
+
+Started GET "/assets/locale.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /locale.js - 200 OK (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /main.js - 200 OK (1ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /pictures.js - 200 OK (1ms)
+
+
+Started GET "/assets/slimbox2.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /slimbox2.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (59ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /application.js - 200 OK (30ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /bootstrap-image-gallery.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-07 03:25:00 +0200
+Served asset /twitter/bootstrap.js - 200 OK (15ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-07 03:25:06 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uE2513eQuCRlm+iSJa6CGGfbcsB72mld/BLF0mG9M4s=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007f71001eb4c8 @original_filename="back_widget_bottom.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_widget_bottom.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131107-2669-kp8si9>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"uE2513eQuCRlm+iSJa6CGGfbcsB72mld/BLF0mG9M4s=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007f71001eb4c8 @original_filename="back_widget_bottom.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_widget_bottom.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131107-2669-kp8si9>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 53ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-07 03:25:16 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uE2513eQuCRlm+iSJa6CGGfbcsB72mld/BLF0mG9M4s=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x0000000290ccc8 @original_filename="back_widget_bottom.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_widget_bottom.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131107-2669-p695ue>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"uE2513eQuCRlm+iSJa6CGGfbcsB72mld/BLF0mG9M4s=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x0000000290ccc8 @original_filename="back_widget_bottom.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_widget_bottom.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131107-2669-p695ue>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-07 03:25:21 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uE2513eQuCRlm+iSJa6CGGfbcsB72mld/BLF0mG9M4s=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x00000002c93040 @original_filename="back_widget_bottom.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_widget_bottom.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131107-2669-1gkrcm7>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"uE2513eQuCRlm+iSJa6CGGfbcsB72mld/BLF0mG9M4s=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x00000002c93040 @original_filename="back_widget_bottom.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_widget_bottom.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131107-2669-1gkrcm7>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-08 15:24:50 +0200
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT "galleries".* FROM "galleries" [0m
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures" WHERE "pictures"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pictures".* FROM "pictures" WHERE "pictures"."id" = 2 LIMIT 1[0m
+  Rendered galleries/index.html.erb within layouts/application (627.5ms)
+Completed 200 OK in 1555ms (Views: 1442.0ms | ActiveRecord: 34.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /application.css - 200 OK (55ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.Jcrop.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.Jcrop.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /pictures.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.ui.widget.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.fileupload-ui.css - 200 OK (1ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /uploads.css - 200 OK (1ms)
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /upload.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/slimbox2.css?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /slimbox2.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.Jcrop.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.Jcrop.js - 200 OK (2ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /load-image.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /canvas-to-blob.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.iframe-transport.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.fileupload.js - 200 OK (3ms)
+
+
+Started GET "/assets/locale.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /locale.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.fileupload-ui.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ip.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /jquery.fileupload-ip.js - 200 OK (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /main.js - 200 OK (1ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /pictures.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/slimbox2.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /slimbox2.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:53 +0200
+Served asset /twitter/bootstrap.js - 200 OK (17ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:54 +0200
+Served asset /bootstrap-image-gallery.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-08 15:24:54 +0200
+Served asset /application.js - 200 OK (31ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-11-08 15:24:54 +0200
+Served asset /fontawesome-webfont.woff - 200 OK (21ms)
+
+
+Started GET "/upload/index" for 127.0.0.1 at 2013-11-08 15:25:01 +0200
+Processing by UploadController#index as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/1.9.1/benchmark.rb:295)
+  Rendered upload/uploadfile.html.erb within layouts/application (149.7ms)
+testeststestse
+Completed 200 OK in 221ms (Views: 220.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.Jcrop.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.Jcrop.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slimbox2.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /slimbox2.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /upload.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.Jcrop.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.Jcrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ip.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.fileupload-ip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locale.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /locale.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slimbox2.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /slimbox2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-08 15:25:02 +0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started POST "/upload/uploadFile" for 127.0.0.1 at 2013-11-08 15:25:09 +0200
+Processing by UploadController#uploadFile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7+y55N2yY/dTp/s+0oVeGEOsIWWr24vHoXxFRHYfY04=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fc2e02d0758 @original_filename="back_green.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_green.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131108-20765-1anpmgf>>}, "commit"=>"Save User"}
+==========================================={"utf8"=>"✓", "authenticity_token"=>"7+y55N2yY/dTp/s+0oVeGEOsIWWr24vHoXxFRHYfY04=", "user"=>{"datafile"=>#<ActionDispatch::Http::UploadedFile:0x007fc2e02d0758 @original_filename="back_green.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[datafile]\"; filename=\"back_green.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20131108-20765-1anpmgf>>}, "commit"=>"Save User", "controller"=>"upload", "action"=>"uploadFile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 70ms (Views: 3.2ms | ActiveRecord: 0.0ms)
